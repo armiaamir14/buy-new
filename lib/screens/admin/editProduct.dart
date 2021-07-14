@@ -27,7 +27,7 @@ class EditProduct extends StatelessWidget {
                   hint: 'Product Name',
                   onClick: (value) {
                     _name = value;
-                  },
+                  }, icon: null,
                 ),
                 SizedBox(
                   height: 10,
@@ -36,7 +36,7 @@ class EditProduct extends StatelessWidget {
                   onClick: (value) {
                     _price = value;
                   },
-                  hint: 'Product Price',
+                  hint: 'Product Price', icon: null,
                 ),
                 SizedBox(
                   height: 10,
@@ -45,7 +45,7 @@ class EditProduct extends StatelessWidget {
                   onClick: (value) {
                     _description = value;
                   },
-                  hint: 'Product Description',
+                  hint: 'Product Description', icon: null,
                 ),
                 SizedBox(
                   height: 10,
@@ -54,7 +54,7 @@ class EditProduct extends StatelessWidget {
                   onClick: (value) {
                     _category = value;
                   },
-                  hint: 'Product Category',
+                  hint: 'Product Category', icon: null,
                 ),
                 SizedBox(
                   height: 10,
@@ -63,7 +63,7 @@ class EditProduct extends StatelessWidget {
                   onClick: (value) {
                     _imageLocation = value;
                   },
-                  hint: 'Product Location',
+                  hint: 'Product Location', icon: null,
                 ),
                 SizedBox(
                   height: 20,
